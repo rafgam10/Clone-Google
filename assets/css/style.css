@@ -1,0 +1,48 @@
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    max-height: 100vh;
+    /*color: white;*/
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Parte do NAV */
+
+nav {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div {
+    padding: 6px;
+    margin: 4px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-img:hover {
+    background-color: #f7f2f2;
+    border-radius: 50%;
+}
+
+
+.nav-menu:hover {
+    border-radius: 25px;
+    background-color: #f7f2f2;
+    cursor: pointer;
+}
+
+/* LOGO DO GOOGLE */
+
+img {
+    
+}
